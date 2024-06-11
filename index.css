@@ -25,6 +25,9 @@
     border: none;
     font-weight: bold;
 }
+.mo:hover{
+    background-color: rgb(247, 174, 147);
+}
 .v{
     background-image: url("gym1.jpg");
     background-repeat: no-repeat;
@@ -52,6 +55,9 @@
     border: none;
     margin-left: 600px;
 
+}
+.mml:hover{
+    background-color: rgb(247, 174, 147);
 }
 .hn{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -134,6 +140,9 @@
     border: none;
     margin-left: 550px;
 }
+.mll:hover{
+    background-color: rgb(247, 174, 147);
+}
 .es{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -154,7 +163,11 @@
     padding-left: 20px;
     height: 55px;
     padding-top: 10px;
+    transition:.3s all ease;
 
+}
+.pp:hover{
+    transform:scale(1.1);
 }
 .ku{
     width: 270px;
@@ -165,6 +178,9 @@
     box-shadow: 0px 5px 10px #ccc;
     border-radius: 5px;
     
+}
+.ku:hover{
+    background-color: rgb(252, 177, 151);
 }
 .er{
     text-decoration: none;
@@ -179,6 +195,9 @@
     border: none;
     box-shadow: 0px 5px 10px #ccc;
     border-radius: 5px;
+}
+.yr:hover{
+    background-color: rgb(247, 174, 147);
 }
 .gm{
     width: 800px;
@@ -270,8 +289,12 @@ td{
 }
 .we{
     box-shadow: 0px 0px 12px rgb(115, 114, 114);
-    width: 220px;
+    width: 240px;
     border-radius: 17px;
+    transition:.3 all ease;
+}
+.we:hover{
+    transform:scale(1.1);
 }
 .ti{
     padding-bottom: 25px;
@@ -330,6 +353,9 @@ td{
     border: none;
     border-radius: 5px;
 }
+.j:hover{
+    background-color: rgb(247, 174, 147);
+}
 .ho{
     color: white;
     font-weight: bold;
@@ -357,4 +383,233 @@ td{
 .foot{
     text-align: center;
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .nn{
+        display: flex;
+        gap: 19px;
+        font-size: 7px;
+        padding-bottom: 8px;
+    }
+    .mo{
+        font-size: 7px;
+        height: 10px;
+        padding-left: 3px;
+    }
+    .p{
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .h{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .mml{
+        margin-left: 170px;
+        height: 15px;
+    }
+    .ml{
+        font-size: 8px;
+        padding-bottom: 8px;
+    }
+    .ol{
+        font-size: 12px;
+        margin-right: 65px;
+    }
+    .lo{
+        font-size: 8px;
+        margin-right: 70px;
+    }
+    .li{
+        display: block;
+    }
+    .im{
+        width: 50px;
+        height: 30px;
+    }
+    .hn{
+        font-size: 11px;
+    }
+    .ih{
+        font-size: 7px;
+    }
+    .li{
+        display: block;
+        margin-left: auto;
+    }
+    .mi{
+        display: block;
+        margin-left: auto;
+    }
+    .ui{
+        display: block;
+        margin-left: auto;
+    }
+    .ik{
+        font-size: 7px;
+    }
+    .ue{
+        font-size: 12px;
+    }
+    .bi{
+        font-size: 10px;
+    }
+    .hj{
+        width: 300px;
+        margin-left: auto;
+        margin-left: 60px;
+    }
+    .mll{
+        margin-left: auto;
+        margin-left: 97px;
+        height: 10px;
+        font-size: 8px;
+    }
+    .ml{
+        font-size: 8px;
+    }
+    .gg{
+        display: block;
+        margin-left: auto;
+
+    }
+    .es{
+        font-size: 12px;
+        text-align: justify;
+        margin-left: 170px;
+    }
+    .my{
+        font-size: 8px;
+        text-align: center;
+        
+        
+    }
+    .pp{
+        width: 200px;
+        margin-left: 90px;
+    }
+    .pp p {
+        font-size: 13px;
+    }
+    .ku{
+        width: 80px;
+        margin-left: 160px;
+    }
+    .er{
+        font-size: 13px;
+    }
+    .gm{
+        width: 220px;
+        height: 160px;
+        margin-left: 90px;
+    }
+    .ms{
+        font-size: 18px;
+        text-align: center;
+    }
+    .nm{
+        font-size: 8px;
+        text-align: center;
+    }
+    .yr{
+        width: 80px;
+        height: 23px;
+        margin-left: 160px;
+    }
+    .wq{
+        font-size: 8px;
+    }
+    .yu{
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-left: 80px;
+        
+    }
+    .nj{
+      margin-left: 60px;
+    }
+    .mj{
+     margin-left: 60px;
+    }
+    
+    
+    td{
+        width: auto;
+        height: auto;
+        font-size: 9px;
+        margin-left: 30px;
+    }
+    .ki{
+        font-size: 13px;
+        text-align: 0px;
+    }
+    .ju{
+        font-size: 8px;
+    }
+    .jr{
+        font-size: 11px;
+    }
+    .nu{
+        height: 400px;
+        border-radius: 10px;
+    }
+    .oo{
+        font-size: 12px;
+    }
+    .ip{
+        font-size: 8px;
+    }
+    .ho{
+      font-size: 13px;
+      margin-left: 120px;
+    }
+    .rw{
+       display: block;
+    }
+    .in{
+        font-size: 10px;
+    }
+    .ri{
+        font-size: 12px;
+    }
+    .ti{
+        font-size: 8px;
+    }
+    .ee{
+       width: 200px;
+       padding-left: 30px;
+       margin-left: 60px;
+    }
+    .i{
+       width: 180px;
+       height: 25px;
+    }
+    .r{
+        width: 180px;
+        height: 25px;
+    }
+    .y{
+        width: 180px;
+        height: 25px;
+    }
+    .c{
+        width: 180px;
+        height: 25px;
+    }
+    .j{
+        width: 180px;
+        height: 25px;
+    }
+    .j value{
+        height: auto;
+    }
+    .foot{
+        font-size: 10px;
+    }
+
+
+
+
 }
